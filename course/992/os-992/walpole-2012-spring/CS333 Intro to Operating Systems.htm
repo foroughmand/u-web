@@ -1,0 +1,1076 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- saved from url=(0108)https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/home.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./CS333 Intro to Operating Systems_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app23.us.archive.org';v.server_ms=809;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./CS333 Intro to Operating Systems_files/playback.bundle.js" charset="utf-8"></script>
+<script type="text/javascript" src="./CS333 Intro to Operating Systems_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://web.cecs.pdx.edu:80/~walpole/class/cs333/spring2012/home.html","20170906055517","https://web.archive.org/","web","/_static/",
+	      "1504677317");
+</script>
+<link rel="stylesheet" type="text/css" href="./CS333 Intro to Operating Systems_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./CS333 Intro to Operating Systems_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<link rel="stylesheet" type="text/css" href="./CS333 Intro to Operating Systems_files/style.css">
+<title>CS333 Intro to Operating Systems</title></head> 
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./CS333 Intro to Operating Systems_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/home.html","20170906055517",1996,"/_static/",["/_static/css/banner-styles.css?v=bsmaklHF","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<table border="0" cellpadding="20" cellspacing="0" width="100%">
+
+<tbody><tr>
+<td align="center">
+<font class="header" face="comic sans ms">
+CS333 - Introduction to Operating Systems
+<br>
+Spring 2012
+</font>
+<p>
+</p></td>
+</tr>
+</tbody></table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="5" width="80%">
+<tbody><tr>
+
+<td align="left">
+<br>
+<font class="sectionheadermedium" face="comic sans ms">
+When:
+Mon/Wed 1400-1550 
+<br>
+Where:
+EB 103
+<br>
+Instructor:
+<a href="https://web.archive.org/web/20170906055517/http://www.cs.pdx.edu/~walpole">
+Jonathan Walpole
+</a>
+<br>
+Instructor Office Hours - by appointment
+<br>
+Teaching Assistant: 
+<a href="https://web.archive.org/web/20170906055517/mailto:nick.aschenbach@gmail.com">
+Nick Aschenbach
+</a>
+<br>
+TA Office Hours - Thursday's 1-3pm (CS Dept Fish Bowl)
+<br>
+</font></td>
+
+</tr>
+</tbody></table>
+
+<p></p><table align="center" border="0" cellpadding="0" cellspacing="5" width="80%">
+<tbody><tr>
+<td align="left">
+
+<br>
+<font class="sectionheader" face="comic sans ms">
+Description 
+</font>
+
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+This course will introduce the core concepts of operating systems, such
+as processes and threads, scheduling, synchronization, memory management,
+file systems, input and output device management and security. The course
+will consist of assigned reading, weekly lectures, a midterm and final exam,
+and a sequence of programming assignments. The goal of the readings and
+lectures is to introduce the core concepts. The goal of the programming
+assignments is to give students some exposure to operating system code.
+Students are expected to read the assigned materials prior to each class,
+and to participate in in-class discussions. 
+</p></td>
+</tr>
+
+<tr>
+<td align="left">
+<br>
+<font class="sectionheader" face="comic sans ms">
+Prerequisites 
+</font>
+</td></tr><tr>
+<td>
+Students should have previous familiarity with programming in a high-level
+object-oriented language (such as C++ or Java); assembly language programming;
+CPU organization, instruction sets, registers; program development in the
+Unix environment (edit, compile, link, load, execute, makefile, using the
+shell); the Unix system call interface; basic data structures (lists, trees,
+graphs); object-oriented concepts (class, object, method). CS 200 and
+CS 201 (Computer Systems Programming I &amp; II) are prerequisites for this
+class. CS 311 (Computational Structures) is also listed as a prerequisite,
+but the material in 311 is not as closely related to this class.
+</td>
+</tr>
+
+
+
+
+<tr>
+<td align="left">
+<br>
+<font class="sectionheader" face="comic sans ms">
+Text Book 
+</font>
+
+</td>
+</tr>
+
+<tr>
+<td>
+The main text book for the course will be:
+<br>
+<br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Operating System Concept Essentials, by Silbershatz, Galvin, and Gagne, John Wiley &amp; Sons 2011. ISBN 978-0-470-88920-6.
+<p>
+In addition, the following supplemental reference material will
+be required for the project assignments:
+<br>
+<br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<b>
+"The BLITZ System",
+</b>
+<i>
+by Harry Porter,
+approx. 200 pages.
+</i>
+</p><p>
+This packet documents the BLITZ software we'll be using in this course.
+This material is available online
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/index.html">
+here
+</a>
+If you don't want to access it online or print it off yourself there are hardcopies of the material available for purchase at CleanCopy, located on Broadway.
+</p></td>
+</tr>
+
+<tr>
+<td align="left">
+<br>
+<font class="sectionheader" face="comic sans ms">
+Grading 
+</font>
+
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+Your final grade will be calculated as follows:
+<br>
+<br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+project - 50%;
+<br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+midterm exam - 25%;
+<br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+final exam - 25%;
+</p></td>
+</tr>
+
+<tr>
+<td align="left">
+<br>
+
+<font class="sectionheader" face="comic sans ms">
+Project 
+</font>
+
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+The programming assignments for this class are based on the
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/index.html">
+BLITZ
+</a>
+system.
+BLITZ
+is a collection of software, written by
+<a href="https://web.archive.org/web/20170906055517/http://www.cs.pdx.edu/~harry">
+Harry Porter,
+</a>
+designed to
+streamline the process
+of learning about, and experimenting with, operating system kernel
+code.
+BLITZ
+includes a complete operating system, assembler, linker, loader
+and debugger, together with software to emulate an underlying CPU
+and various devices. The emulated CPU and devices are representative
+of real-world systems, but without some of the low-level complexity
+that complicates the process of learning about the key underlying
+concepts. By using BLITZ students are able to study, in detail, the
+low-level operating system code that interacts with the hardware,
+as well as design, code and test their own modifications to the
+operating system.
+</p><p>
+<font color="red">
+The due dates for each of these projects are given in the class schedule below.
+</font>
+ 
+<br>
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Project 1:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p1/proj1.pdf">
+Handout.pdf</a>
+]
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p1/">
+Directory Containing Files</a>
+]
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Project 2:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p2/proj2.pdf">
+Handout.pdf</a>
+]
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p2/">
+Directory Containing Files</a>
+]
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Project 3:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p3/proj3.pdf">
+Handout.pdf</a>
+]
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p3/">
+Directory Containing Files</a>
+]
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Project 4:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p4/proj4.pdf">
+Handout.pdf</a>
+]
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p4/">
+Directory Containing Files</a>
+]
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+Project 5:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p5/proj5.pdf">
+Handout.pdf</a>
+]
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~harry/Blitz/OSProject/p5/">
+Directory Containing Files</a>
+]
+
+</p></td>
+</tr>
+
+<tr>
+<td align="left">
+<br>
+<font class="sectionheader" face="comic sans ms">
+Mailing List
+</font>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+A "MailMan" e-mailing list will be maintained for this class. The
+list, called cs333@cs.pdx.edu, is for communicating information
+relating to the course, and can be used by students as well as the
+TA and instructor.
+All students should subscribe to this list. Go to the following web
+page and follow the instructions:
+</p><p>
+<a href="https://web.archive.org/web/20170906055517/https://mailhost.cecs.pdx.edu/cgi-bin/mailman/listinfo/cs333">
+https://mailhost.cecs.pdx.edu/cgi-bin/mailman/listinfo/cs333
+</a>
+</p></td>
+</tr>
+
+<tr>
+
+</tr><tr>
+<td align="left">
+<br>
+<font class="sectionheader" face="comic sans ms">
+Schedule 
+</font>
+
+</td>
+</tr>
+</tbody></table>
+
+<table align="center" border="1" cellpadding="5" cellspacing="2" width="80%">
+
+<tbody>
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-2-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Course Overview and Introduction to Operating Systems
+</b>
+<br>
+Course outline. Overview of course project and expectations.
+Introduction to hardware support for operating systems: privileged
+mode execution, saving and restoring CPU state, traps and interrupts,
+timers, memory protection. Operating system techniques for protecting
+user and hardware resources. Overview of the key operating system
+abstractions and the use of system calls to manipulate them. 
+
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/1.pptx">
+.pptx
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/1.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapters 1 and 2 
+</i>
+<br>
+<font color="green">
+Start
+Project 1 - Introduction to BLITZ
+(due 4-9-12)
+</font>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-4-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+The Process Concept
+</b>
+<br>
+Complete the overview of the key operating system abstractions and the
+use of system calls to manipulate them. Program execution, the process
+concept, process-related state, the process table, saving and restoring
+process state, the role of the scheduler.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/2.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/2.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 3
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-9-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Threads and Concurrency 
+</b>
+<br>
+Threads, process context switch vs thread switch, true concurrency
+vs pseudo concurrency, operating systems as concurrent programs,
+concurrency through multi-threading, concurrency through interrupt
+handling, concurrent access to shared memory, race conditions,
+mutual exclusion, synchronization primitives based on atomic
+instructions.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/3.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/3.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 4
+</i>
+<br>
+<font color="red">
+Project 1 due at start of class.
+</font>
+<br>
+<font color="green">
+Start Project 2: Threads &amp; Synchronization
+(due 4-23-12)
+</font>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-11-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Synchronization Primitives 
+</b>
+<br>
+Atomic instructions, locks, spinlocks, mutex semaphores, counting semaphores,
+and their use in solutions to Producer Consumer synchronization.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/4.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/4.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 6 
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-16-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Classic Synchronization Problems
+</b>
+<br>
+Classic synchronization problems: Producer Consumer,
+Dining Philosophers, Readers and Writers, Sleeping Barber.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/5.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/5.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 6
+</i>
+<br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+4-18-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Monitors and Message Passing
+</b>
+<br>
+Monitors, condition variables, message passing, and their use in
+solutions to classic synchronization problems: Producer Consumer,
+Dining Philosophers, Readers and Writers, Sleeping Barber.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/6.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/6.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 6
+</i>
+<br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-23-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Deadlock
+</b>
+<br>
+Deadlock, livelock, deadlock detection, avoidance, and prevention. 
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/7.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/7.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 6
+</i>
+<br>
+<font color="red">
+Project 2 due at start of class.
+</font>
+<br>
+<font color="green">
+Start Project 3: Synchronization Problems
+(due 5-9-12)
+</font>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-25-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Scheduling
+</b>
+<br>
+Separation of policy from mechanism, scheduling mechanisms, preemptive
+vs non-preemptive scheduling, example scheduling policies, FIFO,
+round-robin, shortest job first, priority scheduling, Unix-style
+feedback scheduling, proportional share scheduling, lottery scheduling.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/8.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/8.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 5
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+4-30-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Memory Management 
+</b>
+<br>
+Memory addresses and binding, static and dynamic addresses translation,
+address translation using base and limit registers, memory management
+algorithms using linked lists and bitmaps, external and internal
+fragmentation, paged virtual memory.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/9.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/9.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 7
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-2-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Midterm Exam
+</b>
+<br>
+In class, closed-book exam based on material covered so far.
+<br>
+<br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-7-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Virtual Memory 1
+</b>
+<br>
+Physical address spaces, virtual address spaces, page table design,
+single-level and multi-level page tables, hardware support for dynamic
+address translation using a TLB, hardware and software managed TLB
+refill.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/11.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/11.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 8
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-9-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Virtual Memory 2
+</b>
+<br>
+Inverted page tables, the memory hierarchy, TLB miss faults, segmentation
+faults, protection faults, page faults, hardware support for memory
+protection, segmentation.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/12.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/12.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 8
+</i>
+<br>
+<font color="red">
+Project 3 due at start of class.
+</font>
+<br>
+<font color="green">
+Start Project 4: Kernel Resource Managers
+(due 5-23-12)
+</font>
+<br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-14-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Virtual Memory 3
+</b>
+<br>
+Implementation issues, page sharing, copy-on-write, page fault handling,
+segmentation, segmentation with paging.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/13.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/13.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 8
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-16-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Paging Algorithms 
+</b>
+<br>
+Demand paging, swapping, placement and replacement algorithms,
+memory hierarchy revisited, overview of cache architecture,
+performance modeling for memory management systems.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/14.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/14.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 8
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-21-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Input/Output
+</b>
+<br>
+Devices, memory mapped devices, DMA, device drivers, interrupt
+handling, scheduled vs non-scheduled I/O processing, block vs
+character devices.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/15.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/15.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 12
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-23-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Secondary Storage Management
+</b>
+<br>
+Disks, sectors, tracks, blocks, disk head scheduling algorithms,
+the file abstraction, directories, links.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/16.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/16.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 11
+</i>
+<br>
+<font color="red">
+Project 4 due at start of class.
+</font>
+<br>
+<font color="green">
+Start Project 5: User Level Processes
+(due 6-6-12)
+</font>
+<br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+5-30-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+File Systems 1
+</b>
+<br>
+File system architecture, file system data structures and system
+calls.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/17.ppt">
+.ppt
+</a><a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/17.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapters 9 and 10
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+6-4-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+File Systems 2
+</b>
+<br>
+File system architecture and design criteria.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/18.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/18.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapter 10
+</i>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+6-6-12
+</td>
+<td bgcolor="eeeeee">
+<b>
+Security
+</b>
+<br>
+Protection domains and mechanisms, access control lists,
+capabilities, user authentication, encryption,
+common internal and external attacks.
+<br>
+<br>
+Slides:
+[
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/19.ppt">
+.ppt
+</a>
+<a href="https://web.archive.org/web/20170906055517/http://web.cecs.pdx.edu/~walpole/class/cs333/spring2012/slides/19.pdf">
+.pdf
+</a>
+]
+<br>
+Reading:
+<i>
+Chapters 13 and 14
+</i>
+<br>
+<br>
+<font color="red">
+Project 5 due at start of class.
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td bgcolor="eeeeee" valign="top" width="8%">
+
+6-11-12
+<br>
+</td>
+<td bgcolor="eeeeee">
+<b>
+Final Exam
+</b>
+<br>
+<br>
+</td>
+</tr>
+
+</tbody></table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="5" width="90%">
+
+
+
+<tbody><tr>
+<td>
+<hr>
+<br>
+<a href="https://web.archive.org/web/20170906055517/http://www.cs.pdx.edu/~walpole">
+Back to Jonathan Walpole's home page
+</a>
+</td>
+</tr>
+</tbody></table>
+
+
+<!--
+     FILE ARCHIVED ON 05:55:17 Sep 06, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:33:21 Jan 27, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.405
+  PetaboxLoader3.datanode: 631.812 (4)
+  esindex: 0.014
+  exclusion.robots: 0.418
+  PetaboxLoader3.resolve: 112.684 (2)
+  CDXLines.iter: 20.646 (3)
+  captures_list: 721.092
+  LoadShardBlock: 693.476 (3)
+  RedisCDXSource: 1.883
+  load_resource: 70.039
+--></body></html>
